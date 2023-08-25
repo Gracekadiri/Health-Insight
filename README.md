@@ -1,7 +1,7 @@
 # Health Insight Precision Project
 
 ## Aim
-The Health Insight Precision project aims to leverage data analysis techniques to gain accurate and meaningful insights from healthcare data. 
+This project aims to leverage data analysis techniques to gain accurate and meaningful insights from healthcare data. 
 By applying advanced SQL queries and Power BI reporting, this project seeks to uncover patterns and trends within patient data that can inform targeted healthcare strategies.
 
 ## Statement of Problem
