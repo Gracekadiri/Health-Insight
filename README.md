@@ -10,10 +10,7 @@ The project addresses this by utilizing data segmentation and analysis to identi
 The goal is to provide clinicians with the tools they need to make informed decisions and tailor their patient care strategies effectively.
 
 ## Analysis
-ruby '''
-
-
-
+```ruby 
 -- Find patients who are taking medications for a variety of conditions.
 SELECT patients$.patient, patients$.first, patients$.last, 
 COUNT(DISTINCT medications$.description) AS unique_medication,
@@ -86,7 +83,7 @@ FROM patients$
 LEFT JOIN procedures$ 
 ON patients$.patient = procedures$.patient
 WHERE patients$.race = 'Asian' AND patients$.gender = 'F';
-'''
+```
 ## Dashboard
 https://app.powerbi.com/groups/me/reports/ee69b0d2-65dd-4fef-a7c8-da06a3e791e0/ReportSection814584da095104d4a525?experience=power-bi
 ![Dashboard](https://github.com/Gracekadiri/Health-Insight/assets/106782819/730abefc-e4e8-4d57-829a-8f481721847c)
